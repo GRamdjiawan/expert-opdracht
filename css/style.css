@@ -1,0 +1,25 @@
+.hide{
+    display: none;
+}
+
+.hide.show {
+    display: block;
+}
+
+.card {
+    background-color: rgba(173, 171, 171, 0.918);
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
